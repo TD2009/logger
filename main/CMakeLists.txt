@@ -1,2 +1,4 @@
-idf_component_register(SRCS "main.c" "esp_profiler.c"
-                       INCLUDE_DIRS ".")
+idf_component_register(
+    SRCS "profiler.c" "main.c"
+    INCLUDE_DIRS "."
+)
